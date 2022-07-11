@@ -33,7 +33,7 @@ export default function Home() {
             <p>Nameste  i am </p>
             <h2>Sandip Olee</h2>
             <p>Enthusiastic student 
-of creativity</p>
+            of creativity</p>
           </div>
         </section>
 

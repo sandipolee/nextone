@@ -26,6 +26,8 @@ header ul {
 
 }
 .hero-section{
+  margin: none;
+  padding: none;
   height: 100vh;
   width: 100vw;
   background: #333333;

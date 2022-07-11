@@ -12,7 +12,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        
+        <header>
+          <nav>
+            <ul>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Blog</a>
+              </li>
+              <li>
+                <a href="#">Projects</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
       </main>
     </div>
   )

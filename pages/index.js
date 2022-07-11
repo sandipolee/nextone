@@ -29,7 +29,12 @@ export default function Home() {
           </nav>
         </header>
         <section className='hero-section'>
-
+          <div>
+            <p>Nameste  i am </p>
+            <h2>Sandip Olee</h2>
+            <p>Enthusiastic student 
+of creativity</p>
+          </div>
         </section>
 
       </main>

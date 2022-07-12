@@ -21,7 +21,7 @@ a {
   box-sizing: border-box;
 }
 .container {
-  padding: 0 70px 0 70px;
+  padding: 0 100px 0 100px;
 }
 main{
   margin: none;
@@ -43,7 +43,7 @@ header ul {
   text-decoration: none;
   float: right;
   margin-top: 30px;
-  margin-right: 50px;
+  margin-right: 100px;
 
 
 }
@@ -67,7 +67,7 @@ nav ul li:hover{
 }
 
 .hero-title{
-  margin: 100px 0 0 150px;
+  margin: 100px 0 0 50px;
 
 }
 .sub-title{
@@ -204,3 +204,34 @@ nav ul li:hover{
 }
 
 
+
+
+/* about section  */
+
+
+.about{
+  background: #292C2A;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.v-center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+}
+.about h2{
+  margin: 0;
+}
+.body-text p{
+  font-size: 1.3rem;
+  color: rgb(216, 215, 215);
+}
+
+#projects{
+  height: 100vh;
+  width: 100%;
+}

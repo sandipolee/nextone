@@ -46,15 +46,30 @@ export default function Home() {
         </section>
 
         <section className="about">
-          <div className="container">
+          <div className="container v-center">
             <div className="title-text">
               <h2>ABOUT ME</h2>
             </div>
             <div className="body-text">
-              <p>              I’ve spent most of these years working across different areas of design like front-end development, landing pages, email design, app UI/UX, to my current role designing products for mobile platforms. Having worked on various projects that are already live, I can help you with the best possible suggestions and ideas that we can proceed with. With me, you aren’t forced to accept anything. I give you a variety of options we can work on together.     
-</p>
+              <p>
+                {" "}
+                I’ve spent most of these years working across different areas of
+                design like front-end development, landing pages, email design,
+                app UI/UX, to my current role designing products for mobile
+                platforms. Having worked on various projects that are already
+                live, I can help you with the best possible suggestions and
+                ideas that we can proceed with. With me, you aren’t forced to
+                accept anything. I give you a variety of options we can work on
+                together.
+              </p>
             </div>
-            
+          </div>
+        </section>
+        <section id="projects">
+          <div className="container v-center">
+            <div className="title-text">
+              <h2> MY PROJECTS</h2>
+            </div>
           </div>
         </section>
       </main>

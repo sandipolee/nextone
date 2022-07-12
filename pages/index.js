@@ -16,7 +16,7 @@ export default function Home() {
         <header>
           <nav>
             <ul>
-              <li>
+              <li className='active-nav'>
                 <a href="#">About</a>
               </li>
               <li>
@@ -28,13 +28,15 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <section className='hero-section'>
-          <div>
+        <section className='hero-section '>
+          <div className='container'>
             <p>Nameste  i am </p>
             <h2>Sandip Olee</h2>
             <p>Enthusiastic student 
             of creativity</p>
+            <button className='btn btn-one'>Let’s Talk</button>
           </div>
+
         </section>
 
       </main>

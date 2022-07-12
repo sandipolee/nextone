@@ -9,6 +9,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
@@ -19,21 +20,70 @@ a {
 * {
   box-sizing: border-box;
 }
-header ul {
-  display: flex;
-  justify-content: space-around;
-  text-decoration: none;
-
+.container {
+  padding: 0 50px 0 50px;
 }
-header ul li{
-  display: flex;
-  justify-content: space-around;
-  list-style: none;
-}
-.hero-section{
+main{
   margin: none;
   padding: none;
-  height: 100vh;
+}
+header{
+  position: absolute;
+  color: #fff;
   width: 100vw;
+  margin: none;
+  padding: none;
+  width: 100%;
+}
+header ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+
+
+}
+nav ul li{
+  list-style: none;
+  padding: 0 10px 5px 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: #21965400 solid 4px;
+
+  
+}
+
+nav ul li:hover{
+  border-color: #219653;
+  transition: 0.5s;
+}
+.active-nav{
+  border-color: #219653;
+  transition: 0.5s;
+}
+.hero-section{
+  padding: 50px 0 0 0;
+  height: 100vh;
+  width: 100%;
   background: #333333;
+  color: #fff;
+}
+
+.btn{
+  padding: 10px 20px 1px 20px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  height: auto;
+
+}
+
+.btn-one{
+  background: #219653;
+  color: #fff;
 }

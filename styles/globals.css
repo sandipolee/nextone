@@ -20,9 +20,24 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+
+/* usable conpoments  */
+
+
+
 .container {
   padding: 0 100px 0 100px;
 }
+br{
+  height: 1px;
+  
+}
+
+/* serial css started */
+
+
 main{
   margin: none;
   padding: none;
@@ -232,6 +247,8 @@ nav ul li:hover{
 }
 
 #projects{
+  position: relative;
   height: 100vh;
   width: 100%;
+  background: #292C2A;
 }

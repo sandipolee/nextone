@@ -65,8 +65,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+        <br />
         <section id="projects">
-          <div className="container v-center">
+          <div className="container ">
             <div className="title-text">
               <h2> MY PROJECTS</h2>
             </div>

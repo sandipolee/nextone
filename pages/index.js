@@ -65,7 +65,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <br />
         <section id="projects">
           <div className="container ">
             <div className="title-text">

@@ -61,6 +61,7 @@ export default function Home() {
                 ideas that we can proceed with. With me, you aren’t forced to
                 accept anything. I give you a variety of options we can work on
                 together.
+            
               </p>
             </div>
           </div>

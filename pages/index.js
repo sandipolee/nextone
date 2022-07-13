@@ -14,7 +14,7 @@ export default function Home() {
         <header>
           <nav>
             <ul>
-              <li class="active-nav">
+              <li className="active-nav">
                 <a href="#">About</a>
               </li>
               <li>
@@ -26,33 +26,33 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <section class="hero-section ">
-          <div class="container">
-            <div class="hero-title">
+        <section className="hero-section ">
+          <div className="container">
+            <div className="hero-title">
               <h5 class="sub-title">Nameste I am </h5>
               <h2>Sandip Olee</h2>
               <p>Enthusiastic student</p>
               <p> of creativity</p>
-              <button class="btn btn-one">Let’s Talk</button>
+              <button className="btn btn-one">Let’s Talk</button>
             </div>
           </div>
 
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
-          <div class="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
+          <div className="cube"></div>
         </section>
 
-        <section class="about">
-          <div class="container v-center">
-            <div class="title-text">
+        <section className="about">
+          <div className="container v-center">
+            <div className="title-text">
               <h2>ABOUT ME</h2>
             </div>
-            <div class="body-text">
+            <div className="body-text">
               <p>
-                
+                {" "}
                 I’ve spent most of these years working across different areas of
                 design like front-end development, landing pages, email design,
                 app UI/UX, to my current role designing products for mobile
@@ -61,14 +61,14 @@ export default function Home() {
                 ideas that we can proceed with. With me, you aren’t forced to
                 accept anything. I give you a variety of options we can work on
                 together.
-            
+                
               </p>
             </div>
           </div>
         </section>
         <section id="projects">
-          <div class="container ">
-            <div class="title-text">
+          <div className="container ">
+            <div className="title-text">
               <h2> MY PROJECTS</h2>
             </div>
           </div>

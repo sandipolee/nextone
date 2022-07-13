@@ -29,7 +29,7 @@ export default function Home() {
         <section className="hero-section ">
           <div className="container">
             <div className="hero-title">
-              <h5 class="sub-title">Nameste I am </h5>
+              <h5 className="sub-title">Nameste I am </h5>
               <h2>Sandip Olee</h2>
               <p>Enthusiastic student</p>
               <p> of creativity</p>
@@ -52,7 +52,7 @@ export default function Home() {
             </div>
             <div className="body-text">
               <p>
-                {" "}
+                
                 I’ve spent most of these years working across different areas of
                 design like front-end development, landing pages, email design,
                 app UI/UX, to my current role designing products for mobile

@@ -14,7 +14,7 @@ export default function Home() {
         <header>
           <nav>
             <ul>
-              <li className="active-nav">
+              <li class="active-nav">
                 <a href="#">About</a>
               </li>
               <li>
@@ -26,14 +26,14 @@ export default function Home() {
             </ul>
           </nav>
         </header>
-        <section className="hero-section ">
-          <div className="container">
-            <div className="hero-title">
+        <section class="hero-section ">
+          <div class="container">
+            <div class="hero-title">
               <h5 class="sub-title">Nameste I am </h5>
               <h2>Sandip Olee</h2>
               <p>Enthusiastic student</p>
               <p> of creativity</p>
-              <button className="btn btn-one">Let’s Talk</button>
+              <button class="btn btn-one">Let’s Talk</button>
             </div>
           </div>
 
@@ -45,14 +45,14 @@ export default function Home() {
           <div class="cube"></div>
         </section>
 
-        <section className="about">
-          <div className="container v-center">
-            <div className="title-text">
+        <section class="about">
+          <div class="container v-center">
+            <div class="title-text">
               <h2>ABOUT ME</h2>
             </div>
-            <div className="body-text">
+            <div class="body-text">
               <p>
-                {" "}
+                
                 I’ve spent most of these years working across different areas of
                 design like front-end development, landing pages, email design,
                 app UI/UX, to my current role designing products for mobile
@@ -67,8 +67,8 @@ export default function Home() {
           </div>
         </section>
         <section id="projects">
-          <div className="container ">
-            <div className="title-text">
+          <div class="container ">
+            <div class="title-text">
               <h2> MY PROJECTS</h2>
             </div>
           </div>
